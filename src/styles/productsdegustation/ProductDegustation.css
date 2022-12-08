@@ -1,0 +1,103 @@
+.degustation_image {
+    height: 233.888px;
+}
+
+.product_degustation_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.degustation_container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.heading_productsDeg {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    line-height: 81.6px;
+}
+
+.heading_container {
+    margin-left: 480px;
+    margin-right: 480px;
+}
+
+.date {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.degustation_container_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    line-height: 2.5rem;
+}
+
+.calendar_icons {
+    color: green;
+    padding-right: 5px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40.8px;
+    font-family: "Playfair Display", serif;
+}
+
+.description {
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 20px;
+    font-size: 30.6px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .degustation_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .heading_productsDeg {
+        font-size: 38px;
+        font-weight: 700;
+        font-family: "Playfair Display", serif;
+        line-height: 81.6px;
+    }
+    .heading_container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .degustation_container_second {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        line-height: 2.5rem;
+        padding-bottom: 30px;
+    }
+    .degustation_container {
+        display: flex;
+        padding-top: 50px;
+        justify-content: space-around;
+        padding-left: 80px;
+        padding-right: 50px;
+    }
+}

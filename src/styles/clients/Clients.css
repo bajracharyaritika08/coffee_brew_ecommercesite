@@ -1,0 +1,21 @@
+.slider_inner_container {
+    padding-left: 250px;
+    padding-right: 250px;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourclients {
+    height: 120px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .slider_inner_container {
+        padding-left: 110px;
+        padding-right: 80px;
+        cursor: grab;
+    }
+}

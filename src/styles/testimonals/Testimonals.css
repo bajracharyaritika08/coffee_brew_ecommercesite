@@ -1,0 +1,117 @@
+.testimonals_container {
+    background-image: url('../../images/herbal-tea-bg_1.jpg');
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.testimonals_heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    word-spacing: 1.5px;
+}
+
+.slider_container {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* background-color: green; */
+}
+
+.testimonals_says {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonal_image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testmonials_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 999;
+}
+
+.testimonal_image_wrapper {
+    z-index: 999;
+    position: relative;
+    bottom: -50px;
+}
+
+.testimonals_desc {
+    background-color: #252c30;
+    margin-left: 28%;
+    margin-right: 28%;
+    height: 52vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    line-height: 34px;
+    flex-direction: column;
+}
+
+.testimonals_text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.line_divider {
+    background-color: #fff;
+    border-bottom-width: 2.5rem;
+    width: 100%;
+    padding: 0.01rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.name_test {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+@media only screen and (max-width: 1250px) {
+    .testimonals_desc {
+        background-color: #252c30;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        line-height: 34px;
+        flex-direction: column;
+    }
+    .testimonals_container {
+        background-image: url('../../images/herbal-tea-bg_1.jpg');
+        height: 150vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+    }
+}

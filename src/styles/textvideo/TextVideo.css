@@ -1,0 +1,143 @@
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+    .text_video_container {
+        padding-top: 80px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divider {
+        padding: 1px;
+        width: 100px;
+        background-color: rgb(137, 75, 0);
+    }
+    
+    .paragraph {
+        padding-bottom: 30px;
+    }
+    
+    h4 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 20px;
+    }
+    
+    .textvideo_para {
+        line-height: 36px;
+        margin-inline-end: 230px;
+        margin-inline-start: 230px;
+        word-break: break-word;
+    }
+    
+    .video_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .more_about_us {
+        font-family: "Playfair Display", serif;
+    }
+    
+    .play_icon {
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        cursor: pointer;
+        padding: 1px;
+        height: 60px;
+        width: 60px;
+        padding-inline: 20px;
+    }
+    
+    @media only screen and (max-width:1350px) {
+        .video_section {
+            background-image: url('../../images/machha_green_tea.jpg');
+            margin-inline-end: 125px;
+            margin-inline-start: 125px;
+            background-size: cover;
+            height: 80vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media only screen and (max-width:1000px) {
+        .text_video_container {
+            padding-top: 20px;
+            padding-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+        h4 {
+            font-size: 30px;
+            font-weight: 700;
+            font-family: "Playfair Display", serif;
+            margin-bottom: 10px;
+        }
+        .textvideo_para {
+            line-height: 36px;
+            margin-inline-end: 50px;
+            margin-inline-start: 50px;
+            word-break: break-word;
+        }
+        .video_section {
+            background-image: url('../../images/machha_green_tea.jpg');
+            margin-inline-end: 75px;
+            margin-inline-start: 75px;
+            background-size: cover;
+            height: 60vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media only screen and (max-width:900px) {
+        .video_section {
+            background-image: url('../../images/machha_green_tea.jpg');
+            margin-inline-end: 50px;
+            margin-inline-start: 50px;
+            background-size: contain;
+            height: 40vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media only screen and (max-width:900px) {
+        .video_section {
+            background-image: url('../../images/machha_green_tea.jpg');
+            margin-inline-end: 20px;
+            margin-inline-start: 20px;
+            background-size: contain;
+            height: 40vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text_video_container {
+            padding-top: 50px;
+            padding-bottom: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }

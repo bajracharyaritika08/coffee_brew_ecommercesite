@@ -1,0 +1,17 @@
+.jumbotorn {
+    background-image: url("../../image/coffeemakin.jpg");
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    background-position: center;
+    background-size: cover;
+    filter: blur(0.1px);
+    background-repeat: no-repeat;
+}
+
+.machine_heading {
+    letter-spacing: 1rem;
+}
